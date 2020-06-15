@@ -3,7 +3,7 @@ const HOME = "/";
 const JOIN = "/join";
 const LOGIN = "/login";
 const LOGOUT = "/logout";
-const SEARCH = "/search"
+const SEARCH = "/search";
 
 // Users
 
@@ -29,7 +29,7 @@ const routes = {
     users: USERS,
     userDetail: USER_DETAIL,
     editProfile: EDIT_PROFILE,
-    chagePassword: CHANGE_PASSWORD,
+    changePassword: CHANGE_PASSWORD,
     videos: VIDEOS,
     upload: UPLOAD,
     videoDetail: VIDEO_DETAIL,
