@@ -1,6 +1,9 @@
 import routes from "../routes";
 import Video from "../models/Video";
+<<<<<<< HEAD
 import videoRouter from "../routers/videoRouter";
+=======
+>>>>>>> master
 
 export const home = async (req, res) =>{
     try{
