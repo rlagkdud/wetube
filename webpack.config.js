@@ -7,11 +7,16 @@ const ENTRY_FILE = path.resolve(__dirname, "assets", "js", "main.js");
 const OUTPUT_DIR = path.join(__dirname, "static");
 
 const config = {
+<<<<<<< HEAD
   entry: ["@babel/polyfill", ENTRY_FILE],
+=======
+  entry: ENTRY_FILE,
+>>>>>>> master
   mode: MODE,
   module: {
     rules: [
       {
+<<<<<<< HEAD
         test: /\.(js)$/,
         use: [
           {
@@ -20,6 +25,8 @@ const config = {
         ],
       },
       {
+=======
+>>>>>>> master
         test: /\.(scss)$/,
         use: ExtractCSS.extract([
           {
@@ -28,7 +35,11 @@ const config = {
           {
             loader: "postcss-loader",
             options: {
+<<<<<<< HEAD
               plugins() {
+=======
+              plugin() {
+>>>>>>> master
                 return [autoprefixer({ browsers: "cover 99.5%" })];
               },
             },
